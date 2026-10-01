@@ -1,0 +1,19 @@
+[2026-10-01T09:14:47Z] === ENRICH ITERATION 1 START | repo=block/microfilm sha=9c89595c ===
+[2026-10-01T09:14:47Z] [iter=1] PHASE START: enrich repo=block/microfilm sha=9c89595c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/9c89595c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/9c89595c08c6fdd2682849e449d23a1d1320626b.nq.gz
+[2026-10-01T09:14:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-01T09:14:48Z] [iter=1] AST store loaded triples=219468 load_secs=2 mem_mb=404 MB
+[2026-10-01T09:14:48Z] [iter=1] Step 2: Finding LSP targets mem_mb=404 MB
+[2026-10-01T09:14:49Z] [iter=1] LSP targets found call_sites=2244 imports=558 extends=0 implements=0 secs=1
+[2026-10-01T09:14:50Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=404 MB
+[2026-10-01T09:14:50Z] [iter=1] Position index built positions=13345 nodes_with_types=16821 secs=1 mem_mb=404 MB
+[2026-10-01T09:14:50Z] [iter=1] Step 3: Starting LSP resolution mem_mb=404 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T09:14:50Z] [iter=1] Resolving target type target_type=call_site count=2244
+[2026-10-01T09:15:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=2 resolved=7 errors=206 current=plugin/src/test/kotlin/xyz/block/microfilm/PathsTest.kt
+[2026-10-01T09:15:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=35 resolved=94 errors=635 current=plugin/src/main/kotlin/xyz/block/microfilm/ImageRule.kt
+[2026-10-01T09:16:11Z] [iter=1] Target type resolved target_type=call_site resolved=120 errors=820 secs=80 mem_mb=404 MB
+[2026-10-01T09:16:11Z] [iter=1] Resolving target type target_type=import_statement count=558
+[2026-10-01T09:16:23Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=1.6 files_done=36 resolved=0 errors=0 current=plugin/src/test/kotlin/xyz/block/microfilm/verification/VerifierTest.kt
+[2026-10-01T09:16:24Z] [iter=1] Target type resolved target_type=import_statement resolved=0 errors=0 secs=14 mem_mb=404 MB
+[2026-10-01T09:16:38Z] [iter=1] Step 5: Writing final enrichment file triples=12890
+[2026-10-01T09:16:38Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/9c89595c08c6fdd2682849e449d23a1d1320626b.nq.gz size_kb=223
+[2026-10-01T09:16:38Z] [iter=1] PHASE END: enrich elapsed_s=112 elapsed_min=1.9 total_triples=12890
