@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/block/microfilm/commit/9c89595c08c6fdd2682849e449d23a1d1320626b",
       "git:hexsha": "9c89595c08c6fdd2682849e449d23a1d1320626b",
-      "repolex:parseStatus": "enrich_complete",
-      "git:tagName": "main"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "main",
+      "repolex:parsedAt": "2026-10-01T09:17:51.951853+00:00"
     },
     {
       "@id": "https://repolex.ai/r/block/microfilm/commit/86fc8be5e66ae146aa663a746327b262c1cd0e0f",
