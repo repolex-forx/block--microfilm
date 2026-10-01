@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "microfilm",
+  "versions": [
+    {
+      "commit": "9c89595c08c6fdd2682849e449d23a1d1320626b",
+      "tag": "main",
+      "parsed_at": "2026-10-01T09:17:52.000067+00:00"
+    }
+  ]
+}
