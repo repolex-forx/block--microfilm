@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/microfilm/commit/9c89595c08c6fdd2682849e449d23a1d1320626b",
       "git:hexsha": "9c89595c08c6fdd2682849e449d23a1d1320626b",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {
